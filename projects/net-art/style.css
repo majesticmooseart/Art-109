@@ -215,13 +215,12 @@ a{
 }
 
 
-
 /* image icons
 -------------------------------*/
 .image-icon img {
     position: relative;
     display: inline-block;
-    height: 50px;
+    height: 100px;
     width: auto;
     z-index: 0;
 }
