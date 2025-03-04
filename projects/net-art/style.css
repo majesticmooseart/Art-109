@@ -300,7 +300,7 @@ a{
     box-sizing: border-box;
     position: relative;
     top: -200px;
-    left: -600px;
+    left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
