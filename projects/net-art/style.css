@@ -220,8 +220,8 @@ a{
 .image-icon img {
     position: relative;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    max-width: 100px;
+    height: auto;
     z-index: 0;
 }
 #web    {
