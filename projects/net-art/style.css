@@ -221,7 +221,7 @@ a{
 .image-icon img {
     position: relative;
     display: inline-block;
-    height: 10px;
+    height: 50px;
     width: auto;
     z-index: 0;
 }
