@@ -1,0 +1,318 @@
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ } 
+
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+
+ body {
+    font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 900;
+   
+}
+
+
+
+/* Links
+----------------------------- */
+a{
+    color: #05f25c;
+    text-decoration: none; 
+}
+
+/* Splash Page index
+----------------------------- */
+.index {
+    background: url(assets/bg-number.gif) no-repeat;
+    background-size: cover;
+    
+
+}
+
+.button-main {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    background: rgb(0, 0, 0);
+}
+
+/* Home Page
+----------------------------- */
+.home {
+    background-image: url(assets/hills-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.h-home {
+    font-size: 1.6rem; 
+   /* font-size 1.6rem is now the same as 16px */
+  background-color: white;
+  display: inline-block;
+  background-position: center;
+  border-radius: 15px;
+  align-items: top;
+  justify-content: top;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* image virus
+------------------------------- */
+.image-virus img {
+    position: relative;
+    display: inline-block;
+    max-height: 400px;
+    width: auto;
+    z-index: 2;
+}
+
+#virus-1 {
+    position: absolute;
+    top: 50px;
+    right: 360px;
+}
+#virus-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 390px;
+}
+#virus-3 {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+#virus-4 {
+    position: absolute;
+    bottom: 10px;
+    left: 260px;
+}
+#virus-5 {
+    position: absolute;
+    bottom: 50px;
+    right: 90px;
+}
+#virus-6 {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+#virus-7 {
+    position: absolute;
+    top: 260px;
+    right: 260px;
+}
+#virus-8 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#virus-9 {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+
+ /* Image memes
+ ----------------------------- */
+.image-meme img { 
+    position: relative;
+    display: inline-block;
+    height: auto;
+    max-width: 300px;
+    z-index: 1;
+}
+
+#meme-1 {
+    position: absolute;
+    top: 50px;
+    left: 360px;
+}
+#meme-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 390px;
+}
+#meme-3 {
+    position: absolute;
+    top: 50px;
+    right: 160px;
+}
+#meme-4 {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+#meme-5 {
+    position: absolute;
+    top: 50px;
+    right: 360px;
+}
+#meme-6 {
+    position: absolute;
+    top: 190px;
+    right: 60px;
+}
+#meme-7 {
+    position: absolute;
+    bottom: 10px;
+    left: 360px;
+}
+#meme-8 {
+    position: absolute;
+    top: 370px;
+    right: 360px;
+}
+#meme-9 {
+    position: absolute;
+    top: 50px;
+    left: 360px;
+}
+#meme-10 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+#meme-11 {
+    position: absolute;
+    top: 50px;
+    right: 160px;
+}
+
+
+
+/* image icons
+-------------------------------*/
+.image-icon img {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 100;
+    z-index: 0;
+}
+#web    {
+    position: absolute;
+    top: 50px;
+    left: 2px;
+ }
+#computer   {
+    position: absolute;
+    top: 120px;
+    left: 2px;
+ }
+#disk   {
+    position: absolute;
+    top: 190px;
+    left: 2px;
+ }
+#find   {
+    position: absolute;
+    top: 260px;
+    left: 2px;
+ }
+#clip   {
+    position: absolute;
+    top: 50px;
+    left: 170px;
+ }
+#defend {
+    position: absolute;
+    bottom: 20px;
+    right: 2px;
+ }
+#folder {
+    position: absolute;
+    top: 260px;
+    right: 560px;
+    z-index: 0;
+ }
+#game   {
+    position: absolute;
+    top: 470px;
+    right: 200px;
+ }
+#mail   {
+    position: absolute;
+    top: 190px;
+    left: 90px;
+ }
+ #note {
+    position: absolute;
+    top: 470px;
+    left: 260px;
+ }
+#paint  {
+    position: absolute;
+    top: 470px;
+    right: 650px;
+ }
+#trash  {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+ }
+
+ /* error page
+ ---------------------------- */
+ .error-pg {
+    background-image: url(assets/error.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .button-reboot{
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    top: -200px;
+    left: -600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
+    
+    background: rgb(187, 190, 175);
+ }
+ a.button-reboot {
+    color: #1f08b6;
+    text-decoration: none; 
+}
+
+
+ 
